@@ -26,7 +26,7 @@ function Main() {
             href="#"
             className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-slate-900 transition-colors hover:bg-slate-50"
           >
-           Buy GAMI
+            Buy GAMI
           </a>
         </div>
       </div>
@@ -72,9 +72,9 @@ function Main() {
               width="411.83"
               height="511.854"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
