@@ -8,18 +8,20 @@ import What from './components/What';
 import Deneme from './components/Deneme';
 import Slider from './components/Slider';
 import Testimonial from './components/Testimon';
+import Footer from './components/Footer';
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Main />
       <Section />
       <What />
      <Testimonial/>
       <Slider />
+      <Footer/>
     </div>
   );
 }
