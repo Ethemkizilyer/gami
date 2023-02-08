@@ -1,6 +1,3 @@
-import React from "react";
-
-
 
 
 const Slider = () => {
@@ -28,13 +25,13 @@ const Slider = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-xl mx-auto mb-8 px-5 bg-white min-h-[400px]">
-        <div className="grid border divide-y divide-neutral-200 bg-slate-200 rounded-lg max-w-[846px] mx-auto mt-8">
+      <div className="max-w-screen-xl lg:w-[800px] mx-auto mb-8 px-5 bg-white min-h-[400px]">
+        <div className="grid border divide-y divide-neutral-200 bg-slate-200 rounded-lg max-w-[846px] mx-auto mt-8 ">
           <div className="py-5">
             <details className="group">
               <summary className=" pt-4 flex justify-between -translate-y-5  px-2 items-center font-medium cursor-pointer list-none">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.?
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
                 </span>
                 <span className="transition group-open:rotate-180">
                   <svg
@@ -52,7 +49,7 @@ const Slider = () => {
                   </svg>
                 </span>
               </summary>
-              <p className="text-neutral-600 px-2 bg-white leading-7  line group-open:animate-fadeIn">
+              <p className="text-neutral-600 px-2 bg-white leading-7  line group-open:animate-fadeIn ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim
                 lorem hac a ultricies. Id ornare turpis vulputate enim sed magna
                 sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
@@ -61,7 +58,7 @@ const Slider = () => {
           </div>
           <div className="py-5">
             <details className="group">
-              <summary className="flex justify-between -translate-y-5 px-2 items-center font-medium cursor-pointer list-none">
+              <summary className="flex justify-between -translate-y-5 px-2 items-center font-medium cursor-pointer list-none ">
                 <span> How does billing work?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
@@ -172,6 +169,5 @@ const Slider = () => {
     </>
   );
 };
-
 
 export default Slider;

@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const Section = () => {
   return (
@@ -16,12 +16,7 @@ const Section = () => {
       </div>
       <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
         <div className="flex flex-col items-center justify-evenly w-full  lg:flex-row">
-          <img
-            alt="logo"
-            width={522}
-            height={280}
-            src="https://images.unsplash.com/photo-1542304074-9c8ce93b52fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          />
+          <img alt="logo" width={522} height={280} src="./PHOTO_1.png" />
           <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
             <div className="max-w-xl text-center mb-6">
               <h2 className="font-sans text-3xl font-bold tracking-tight text-gray sm:text-4xl sm:leading-none max-w-lg mb-6">
@@ -44,7 +39,7 @@ const Section = () => {
               alt="logo"
               width={522}
               height={280}
-              src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              src="./PHOTO_2.png"
             />
             <div className="max-w-xl text-center mb-6">
               <h2 className="font-sans text-3xl sm:mt-0 mt-6 font-bold tracking-tight text-gray sm:text-4xl sm:leading-none max-w-lg mb-6">
@@ -61,18 +56,13 @@ const Section = () => {
             alt="logo"
             width={522}
             height={280}
-            src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            src="./PHOTO_2.png"
           />
         </div>
       </div>
       <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
         <div className="flex flex-col items-center justify-evenly w-full  lg:flex-row">
-          <img
-            alt="logo"
-            width={522}
-            height={280}
-            src="https://images.unsplash.com/photo-1546195643-70f48f9c5b87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          />
+          <img alt="logo" width={522} height={280} src="./PHOTO_3.png" />
           <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
             <div className="max-w-xl text-center mb-6">
               <h2 className="font-sans text-3xl font-bold tracking-tight text-gray sm:text-4xl sm:leading-none max-w-lg mb-6">
@@ -88,6 +78,6 @@ const Section = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Section
+export default Section;

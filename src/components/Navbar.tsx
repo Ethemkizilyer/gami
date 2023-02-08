@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("home");
-  const navigate= useNavigate()
-  const handleClick = (page:string) => {
-      setActive(page);
-    };
+  const navigate = useNavigate();
+  const handleClick = (page: string) => {
+    setActive(page);
+  };
 
   return (
     <nav className="flex items-center border justify-between border-b mx-auto h-16 w-full  ">
@@ -53,9 +53,10 @@ const Navbar = () => {
                 ? "border-t-[1px] w-[80px] rounded-t-lg border-b-white "
                 : ""
             }`}
-            onClick={() =>{ 
-              navigate("/")
-              return handleClick("home")}}
+            onClick={() => {
+              navigate("/");
+              return handleClick("home");
+            }}
           >
             <span
               className={`absolute -left-[4px] h-[1px] w-[87px] -right-1 bottom-[2.5px] ${
@@ -137,9 +138,10 @@ const Navbar = () => {
                 ? "border-t-[1px] w-[120px] rounded-t-lg border-b-white "
                 : ""
             }`}
-            onClick={() =>{
-              navigate("/contact")
-              return handleClick("contact")}}
+            onClick={() => {
+              navigate("/contact");
+              return handleClick("contact");
+            }}
           >
             <span
               className={`absolute -left-[4px] h-[1px] w-[127.5px] -right-1 bottom-[2.5px] ${
