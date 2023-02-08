@@ -31,7 +31,7 @@ const Slider = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
+      <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-screen">
       
         <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
           <div className="py-5">

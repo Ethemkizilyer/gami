@@ -20,32 +20,18 @@ const What = () => {
 
   return (
     <section className="w-full mx-auto container">
-      <div className="container">
-        <div className="flex flex-wrap -mx-4">
-          <div className="w-full px-4">
-            <div className="text-center mx-auto  max-w-[510px]">
-              <span className="font-semibold text-lg text-primary mb-2 block">
-                Our Services
-              </span>
-              <h2
-                className="
-                  font-bold
-                  text-3xl
-                  sm:text-4xl
-                  md:text-[40px]
-                  text-dark
-                  mb-4
-                  "
-              >
-                What We Offer
-              </h2>
-              <p className="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
-          </div>
-        </div>
+      <div className="container flex flex-col gap-20">
+        <div className="w-full lg:w-1/2 flex flex-col mx-auto items-center justify-center lg:px-2 xl:px-0 text-center">
+        <p className="text md:text-6xl lg:text-[600] font-bold tracking-wider text-gray-300">
+          Lorem Ipsum Dolor Sit Amet
+        </p>
+        <p className="text-x tracking-wider text-gray-300 mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+          cum ullam. Est eius adipisci sed impedit eveniet. Quas, nihil nobis
+          asperiores reiciendis ut quam, repudiandae deserunt aliquid ab odio
+          nisi!
+        </p>
+      </div>
 
         <div className="flex flex-wrap -mx-4">
 <Deneme/>

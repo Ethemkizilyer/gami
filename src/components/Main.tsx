@@ -3,34 +3,32 @@ import React from "react";
 
 function Main() {
   return (
-    <div className="w-full h-screen flex flex-col lg:flex-row items-center justify-center space-y-16 lg:space-y-0 space-x-8 2xl:space-x-0">
-      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center lg:px-2 xl:px-0 text-center">
-        <p className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider text-gray-300">
+    <div className="w-full flex flex-col lg:flex-row items-center justify-center space-y-16 lg:space-y-0 space-x-8 2xl:space-x-0">
+      <div className=" lg:w-[548px] flex flex-col gap-4 items-start mx-auto justify-end ml-[80px]  text-start">
+        <p className="text-[72px] md:text-6xl lg:text-[72px] font-[600] tracking-wider text-gray-300">
           Lorem Ipsum Dolor Sit Amet
         </p>
         <p className="text-x tracking-wider text-gray-300 mt-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-          cum ullam. Est eius adipisci sed impedit eveniet. Quas, nihil nobis
-          asperiores reiciendis ut quam, repudiandae deserunt aliquid ab odio
-          nisi!
+          cum ullam. Est eius adipisci sed impedit eveniet nihil.
         </p>
 
         <div className="mt-6 flex items-center justify-center gap-4">
           <a
             href="#"
-            className="transform rounded-md bg-indigo-600/95 px-5 py-3 font-medium text-white transition-colors hover:bg-indigo-700"
+            className="transform rounded-md shadow-lg hover: border-slate-200 px-7 py-4 font-medium text-slate-900 transition-colors hover:bg-slate-50"
           >
             Explore GAMI
           </a>
           <a
             href="#"
-            className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-slate-900 transition-colors hover:bg-slate-50"
+            className="transform rounded-md  shadow-lg border-slate-200 px-7 py-4 font-medium text-slate-900 transition-colors hover:bg-slate-50"
           >
             Buy GAMI
           </a>
         </div>
       </div>
-      <div className="w-1/2 lg:h-full flex lg:items-end justify-center p-4">
+      <div className="w-1/2 h-[581px]  flex lg:items-end justify-center p-4">
         <svg
           width="387.83"
           height="487.85"
