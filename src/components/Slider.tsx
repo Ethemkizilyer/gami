@@ -6,12 +6,9 @@ import React from "react";
 const Slider = () => {
   return (
     <>
-      <div className="flex flex-wrap -mx-4">
+      <div className="flex flex-wrap -mx-4 mt-16">
         <div className="w-full px-4">
           <div className="text-center mx-auto  max-w-[510px]">
-            <span className="font-semibold text-lg text-primary mb-2 block">
-              Our Services
-            </span>
             <h2
               className="
                   font-bold
@@ -31,13 +28,14 @@ const Slider = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-screen">
-      
-        <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+      <div className="max-w-screen-xl mx-auto mb-8 px-5 bg-white min-h-[400px]">
+        <div className="grid border divide-y divide-neutral-200 bg-slate-200 rounded-lg max-w-[846px] mx-auto mt-8">
           <div className="py-5">
             <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                <span> What is a SAAS platform?</span>
+              <summary className=" pt-4 flex justify-between -translate-y-5  px-2 items-center font-medium cursor-pointer list-none">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.?
+                </span>
                 <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -54,15 +52,16 @@ const Slider = () => {
                   </svg>
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                SAAS platform is a cloud-based software service that allows
-                users to access and use a variety of tools and functionality.
+              <p className="text-neutral-600 px-2 bg-white leading-7  line group-open:animate-fadeIn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim
+                lorem hac a ultricies. Id ornare turpis vulputate enim sed magna
+                sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+              <summary className="flex justify-between -translate-y-5 px-2 items-center font-medium cursor-pointer list-none">
                 <span> How does billing work?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
@@ -80,17 +79,16 @@ const Slider = () => {
                   </svg>
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                We offers a variety of billing options, including monthly and
-                annual subscription plans, as well as pay-as-you-go pricing for
-                certain services. Payment is typically made through a credit
-                card or other secure online payment method.
+              <p className="text-neutral-600 px-2 bg-white leading-7  line group-open:animate-fadeIn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim
+                lorem hac a ultricies. Id ornare turpis vulputate enim sed magna
+                sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+              <summary className="flex px-2 -translate-y-5 justify-between items-center font-medium cursor-pointer list-none ">
                 <span> Can I get a refund for my subscription?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
@@ -108,18 +106,16 @@ const Slider = () => {
                   </svg>
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                We offers a 30-day money-back guarantee for most of its
-                subscription plans. If you are not satisfied with your
-                subscription within the first 30 days, you can request a full
-                refund. Refunds for subscriptions that have been active for
-                longer than 30 days may be considered on a case-by-case basis.
+              <p className="text-neutral-600 px-2 bg-white leading-7  line group-open:animate-fadeIn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim
+                lorem hac a ultricies. Id ornare turpis vulputate enim sed magna
+                sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+              <summary className="flex px-2 -translate-y-5 justify-between items-center font-medium cursor-pointer list-none">
                 <span> How do I cancel my subscription?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
@@ -137,17 +133,16 @@ const Slider = () => {
                   </svg>
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                To cancel your We subscription, you can log in to your account
-                and navigate to the subscription management page. From there,
-                you should be able to cancel your subscription and stop future
-                billing.
+              <p className="text-neutral-600 px-2 bg-white leading-7  line group-open:animate-fadeIn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim
+                lorem hac a ultricies. Id ornare turpis vulputate enim sed magna
+                sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
               </p>
             </details>
           </div>
-          <div className="py-5">
+          <div className="pt-5">
             <details className="group">
-              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+              <summary className="flex justify-between -translate-y-5 px-2 items-center font-medium cursor-pointer list-none">
                 <span> Can I try this platform for free?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
@@ -165,38 +160,18 @@ const Slider = () => {
                   </svg>
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                We offers a free trial of its platform for a limited time.
-                During the trial period, you will have access to a limited set
-                of features and functionality, but you will not be charged.
+              <p className="text-neutral-600 px-2 bg-white leading-7  line group-open:animate-fadeIn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim
+                lorem hac a ultricies. Id ornare turpis vulputate enim sed magna
+                sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
               </p>
             </details>
           </div>
-         
         </div>
       </div>
     </>
   );
 };
 
-const faqdata = [
-  {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
-  },
-  {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
-  },
-];
+
 export default Slider;

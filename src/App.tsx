@@ -9,20 +9,26 @@ import Deneme from './components/Deneme';
 import Slider from './components/Slider';
 import Testimonial from './components/Testimon';
 import Footer from './components/Footer';
+import { BrowserRouter, Routes,Route } from "react-router-dom";
+import Home from './pages/Home';
+import Contact from './pages/Contact';
 
 
 
 function App() {
   return (
-    <div className=''>
+    <>
+    <BrowserRouter>
       <Navbar />
-      <Main />
-      <Section />
-      <What />
-     <Testimonial/>
-      <Slider />
+      <Routes>
+
+      <Route path='/' element={<Home/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+
+      </Routes>
       <Footer/>
-    </div>
+      </BrowserRouter>
+    </>
   );
 }
 

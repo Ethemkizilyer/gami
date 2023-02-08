@@ -2,57 +2,70 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-dark">
-      <main className="px-[82px]">
-        <div id="contact" className="text-white py-20">
-          <div className="heading text-center font-extrabold text-4xl mb-16">
-            <h1>CONTACT</h1>
-          </div>
-          <div className="flex flex-col-reverse gap-5 lg:gap-0 lg:flex-row justify-around items-center">
-            <div className="maps">
+    <div className="relative flex items-top justify-center h-[475px] bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
+      <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
+        <div className="mt-8 overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className=" mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
               <iframe
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                className="darkMaps min-w-[300px] md:w-[500px] h-[250px]"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3056424952283!2d106.84048315104833!3d-6.223370095472885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f38cc1745025%3A0x5068e84a3c006001!2sJl.%20Raya%20Casablanca%20No.88%2C%20RT.16%2FRW.5%2C%20Menteng%20Dalam%2C%20Kec.%20Tebet%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012870!5e0!3m2!1sen!2sid!4v1674020473016!5m2!1sen!2sid"
-                loading="lazy"
-              ></iframe>
+                src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                className="h-[455px] w-[535px] rounded-lg"
+                frameBorder={0}
+                allowFullScreen
+              />
             </div>
-            <div className="input">
-              <div>
-                <form className="flex flex-col gap-5 text-sm max-w-[500px] min-w-[300px] md:w-[500px] font-bold text-white">
-                  <input
-                    data-aos="fade-left"
-                    type="text"
-                    placeholder="Your Name"
-                    className="bg-transparent py-2 outline-none border-white border-b"
-                  />
-                  <input
-                    data-aos="fade-left"
-                    data-aos-delay="150"
-                    type="text"
-                    placeholder="Your Email"
-                    className="bg-transparent py-2 outline-none border-white border-b"
-                  />
-                  <textarea
-                    data-aos="fade-left"
-                    data-aos-delay="300"
-                    placeholder="Note"
-                    className="bg-light-main p-2 pb-10 outline-none rounded-md"
-                  />
-                  <button
-                    data-aos="fade-left"
-                    data-aos-delay="450"
-                    className=""
-                  >
-                    Submit
-                  </button>
-                </form>
+            <form className="p-6  flex flex-col justify-center">
+              <h3 className="text-[24px] font-[600]">
+                Lorem ipsum dolor sit amet.
+              </h3>
+              <p className="text-[#94A3B8] text-[20px] font-[400]">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
+                voluptatibus consequatur inventore minus?
+              </p>
+              <div className="flex flex-col">
+                <label htmlFor="name" className="hidden">
+                  Full Name
+                </label>
+                <input
+                  type="name"
+                  name="name"
+                  id="name"
+                  placeholder="Full Name"
+                  className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                />
               </div>
-            </div>
+              <div className="flex flex-col mt-2">
+                <label htmlFor="email" className="hidden">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                />
+              </div>
+              <div className="flex flex-col mt-2">
+                <label htmlFor="" className="font-[500] leading-8">Tell usmore about your project*</label>
+                <textarea
+                  className="form-control block px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  id="exampleFormControlTextarea13"
+                  rows={3}
+                  placeholder="Message"
+                  defaultValue={""}
+                />
+              </div>
+              <button
+                type="submit"
+                className="md:w-44 bg-[#1E293B] hover:bg-blue-dark mx-auto text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300"
+              >
+                Send Message
+              </button>
+            </form>
           </div>
-        </div>{" "}
-      </main>
+        </div>
+      </div>
     </div>
   );
 };

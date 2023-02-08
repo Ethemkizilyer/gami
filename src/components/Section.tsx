@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section = () => {
   return (
-    <div className="w-full my-20 z-50 sticky mx-auto rounded-3xl px-6 container">
+    <div className="w-full mb-20 z-50 sticky mx-auto rounded-3xl px-6 container">
       <div className="w-full lg:w-1/2 flex flex-col mx-auto items-center justify-center lg:px-2 xl:px-0 text-center">
         <p className="text md:text-6xl lg:text-[600] font-bold tracking-wider text-gray-300">
           Lorem Ipsum Dolor Sit Amet

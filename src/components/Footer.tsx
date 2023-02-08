@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="p-4 bg-white container mx-auto items-center flex justify-center flex-col rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+    <footer className="p-4 bg-white container mx-auto items-center flex justify-center flex-col rounded-lg shadow md:px-6 md:pt-8 dark:bg-gray-900">
       <div className=" mx-auto w-full px-6 flex justify-between items-center  sm:items-center sm:justify-around">
         <a
           href="https://GAMI.com/"
@@ -148,7 +148,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+  
       <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
         © {new Date().getFullYear()}{" "}
         <a href="https://flowbite.com/" className="hover:underline">
