@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="p-4 bg-white container mx-auto items-center flex justify-center flex-col rounded-lg shadow md:px-6 md:pt-8 dark:bg-gray-900">
+    <footer className="p-4  bg-white container mx-auto items-center flex justify-center flex-col rounded-lg shadow md:px-6 md:pt-8 dark:bg-gray-900 ">
       <div className=" mx-auto w-full px-6 flex justify-between items-center  sm:items-center sm:justify-around">
         <a
           href="https://GAMI.com/"

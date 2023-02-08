@@ -15,7 +15,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="w-full overflow-x-hidden">
+    <div className="w-full overflow-x-hidden relative">
       <BrowserRouter>
         <Navbar />
         <Routes>

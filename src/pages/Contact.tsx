@@ -1,20 +1,40 @@
+import { useState } from "react";
 
 
 const Contact = () => {
+  const [formData, setFormData] = useState({});
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async () => {
+    setLoading(true);
+
+   
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+   
+
+    
+    setLoading(false);
+  };
   return (
     <div className="relative flex items-top justify-center bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
       <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div className="mt-8 overflow-hidden">
+           {loading ? (
+        <h1 className="h-[440px] font-bold text-[32px] mx-auto">Veriler işleniyor...</h1>
+      ) : ( 
           <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className=" mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg  ">
+            <div className=" mr-2  sm:rounded-lg  ">
               <iframe
                 src="https://maps.google.com/maps?q=ankara&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                className="h-[455px] w-[535px] rounded-lg"
+                className="h-[420px] w-[535px] rounded-lg"
                 frameBorder={0}
                 allowFullScreen
               />
             </div>
-            <form className="p-6  flex flex-col justify-center">
+            <form
+              onSubmit={handleSubmit}
+              className="p-6  flex flex-col justify-center"
+            >
               <h3 className="text-[24px] font-[600]">
                 Lorem ipsum dolor sit amet.
               </h3>
@@ -65,7 +85,7 @@ const Contact = () => {
                 Send Message
               </button>
             </form>
-          </div>
+          </div>)}
         </div>
       </div>
     </div>

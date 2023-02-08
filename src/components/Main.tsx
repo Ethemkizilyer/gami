@@ -3,7 +3,7 @@ function Main() {
   return (
     <div className="w-full flex flex-col lg:flex-row items-center justify-center space-y-16 lg:space-y-0 space-x-8 2xl:space-x-0">
       <div className=" lg:w-[548px] flex flex-col gap-4 items-start mx-auto justify-end ml-[80px]  text-start">
-        <p className="text-[72px] md:text-6xl lg:text-[72px] font-[600] tracking-wider text-gray-300">
+        <p className="text-[36px] font-[700] md:text-6xl lg:text-[600] tracking-wider text-[#1D335A]">
           Lorem Ipsum Dolor Sit Amet
         </p>
         <p className="text-x tracking-wider text-gray-300 mt-2">
