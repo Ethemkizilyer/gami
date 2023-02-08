@@ -1,5 +1,5 @@
 import  { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("home");
@@ -12,8 +12,8 @@ const Navbar = () => {
     <nav className="flex items-center border justify-between border-b mx-auto h-16 w-full  ">
       <div className="flex justify-between gap-10 mx-auto h-16 w-full  lg:px-[100px] px-12 items-center py-3 ">
         <div className="flex lg:mt-4">
-          <a
-            href="https://GAMI.com/"
+          <Link
+            to="/"
             className="flex items-center lg:mb-4 mb-0 pl-4 sm:mb-0"
           >
             <svg
@@ -44,7 +44,7 @@ const Navbar = () => {
                 fill="#1C325B"
               />
             </svg>
-          </a>
+          </Link>
         </div>
         <div className=" lg:block hidden">
           <button
@@ -165,7 +165,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center">
           <button
-            className=" text-white flex items-center font-[600] leading-[34px] w-[132px] h-[52px] px-[28px] py-[14px]  bg-[#1E293B]
+            className=" text-white flex items-center font-[600] leading-[34px] w-[133px] h-[52px] px-[28px] py-[14px]  bg-[#1E293B] hover:bg-[#334155]
 rounded-[8px]"
           >
             Buy GAMI

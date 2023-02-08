@@ -34,7 +34,7 @@ const Testimonial: React.FC = () => {
       <div className="lg:w-[910px] w-[60%] mx-auto h-[370px] mt-36 lg:mt-0 flex items-center justify-center transition duration-1000">
         <button
           onClick={handlePrevClick}
-          className="bg-slate-100 rounded-full p-2 prev-btn"
+          className="bg-slate-100 rounded-full p-2 prev-btn hover:bg-[#1D335A] hover:text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ const Testimonial: React.FC = () => {
         </div>
         <button
           onClick={handleNextClick}
-          className="bg-slate-100 rounded-full p-2 next-btn"
+          className="bg-slate-100 rounded-full p-2 next-btn hover:bg-[#1D335A] hover:text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
