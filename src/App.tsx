@@ -17,18 +17,16 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <>
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-
-      <Route path='/' element={<Home/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-
-      </Routes>
-      <Footer/>
+    <div className="w-full overflow-x-hidden">
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

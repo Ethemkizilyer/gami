@@ -19,10 +19,10 @@ const What = () => {
   };
 
   return (
-    <section className="w-full mx-auto container pb-20">
+    <section className=" mx-auto -mt-24 flex flex-wrap flex-col container pb-20">
       <div className="container flex flex-col gap-20">
         <div className="w-full lg:w-1/2 flex flex-col mx-auto items-center justify-center lg:px-2 xl:px-0 text-center">
-        <p className="text md:text-6xl lg:text-[600] font-bold tracking-wider text-gray-900 mb-8">
+        <p className="text-6xl  lg:text-[600] font-bold tracking-wider text-gray-900 mb-8">
           Lorem Ipsum Dolor
         </p>
         <p className="text-x tracking-wider text-gray-300 mt-2">
@@ -32,12 +32,12 @@ const What = () => {
           nisi!
         </p>
       </div>
-
-        <div className="flex flex-wrap -mx-4">
+ </div>
+        
 <Deneme/>
         
-        </div>
-      </div>
+        
+     
     </section>
   );
 };

@@ -31,7 +31,7 @@ const Testimonial: React.FC = () => {
         </p>
       </div>
 
-      <div className="w-[910px] mx-auto h-[370px] flex items-center justify-center transition duration-1000">
+      <div className="lg:w-[910px] w-[60%] mx-auto h-[370px] mt-36 lg:mt-0 flex items-center justify-center transition duration-1000">
         <button
           onClick={handlePrevClick}
           className="bg-slate-100 rounded-full p-2 prev-btn"
@@ -52,7 +52,7 @@ const Testimonial: React.FC = () => {
           </svg>
         </button>
 
-        <div className="flex flex-row justify-between items-center w-[860px]  transition duration-1000">
+        <div className="flex lg:flex-row  flex-col justify-between items-center lg:w-[860px]  transition duration-1000">
           {currentTestimonials.map((testimonial) => (
             <div className="w-[413px] flex items-center justify-center  transition duration-1000 carousel">
               <blockquote className=" flex  flex-col justify-center items-center  p-2">

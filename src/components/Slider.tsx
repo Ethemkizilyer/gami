@@ -6,7 +6,7 @@ import React from "react";
 const Slider = () => {
   return (
     <>
-      <div className="flex flex-wrap -mx-4 mt-16">
+      <div className="flex flex-wrap md:mt-36 mt-36   -mx-4 lg:mt-6">
         <div className="w-full px-4">
           <div className="text-center mx-auto  max-w-[510px]">
             <h2

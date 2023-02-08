@@ -9,12 +9,12 @@ const Navbar = () => {
     };
 
   return (
-    <nav className="flex items-center justify-between border-b mx-auto h-16 w-full  px-4 py-3 h ">
-      <div className="flex items-center justify-between mx-auto h-16 w-full  px-[100px] py-3 h ">
-        <div className="flex items-center ">
+    <nav className="flex items-center border justify-between border-b mx-auto h-16 w-full  ">
+      <div className="flex justify-between gap-10 mx-auto h-16 w-full  lg:px-[100px] px-12 items-center py-3 ">
+        <div className="flex ">
           <a
             href="https://GAMI.com/"
-            className="flex items-center mb-4 pl-4 sm:mb-0"
+            className="flex items-center lg:mb-4 mb-0 pl-4 sm:mb-0"
           >
             <svg
               width="36"
@@ -46,7 +46,7 @@ const Navbar = () => {
             </svg>
           </a>
         </div>
-        <div className="flex ">
+        <div className=" lg:block hidden">
           <button
             className={`mx-2 py-2 mt-[22px]   px-4 h-12 font-medium relative ${
               active == "home"

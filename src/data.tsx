@@ -10,20 +10,9 @@ const data = [
         viewBox="0 0 55 70"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        
       >
-        
-        <path
-          d="M13.7507 70L0 46.6662H27.5L13.7507 70Z"
-          fill="#1E293B"
-         
-         
-        />
-        <path
-          d="M41.2493 70L27.5 46.6662H55L41.2493 70Z"
-          fill="#1E293B"
-        
-        />
+        <path d="M13.7507 70L0 46.6662H27.5L13.7507 70Z" fill="#1E293B" />
+        <path d="M41.2493 70L27.5 46.6662H55L41.2493 70Z" fill="#1E293B" />
         <path
           d="M27.5 46.6662L13.7493 23.3338H41.2493L27.5 46.6662Z"
           fill="#1E293B"
@@ -366,14 +355,14 @@ const data = [
     image: (
       <img
         src="./gs.png"
-        className="text-red-500  absolute left-[30%] top-[9%] z-3"
+        className="text-red-500  absolute  z-3 top-[50%]"
         alt="gs"
       />
     ),
     image1: (
       <img
         src="./gs.png"
-        className=" text-red absolute left-[30%] top-[9%] z-3"
+        className=" text-red-500  absolute  z-3 top-[50%]"
         alt="gs"
       />
     ),

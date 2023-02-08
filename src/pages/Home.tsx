@@ -7,13 +7,13 @@ import What from '../components/What';
 
 const Home = () => {
   return (
-    <>
+    <div className='flex flex-wrap flex-col'>
       <Main />
       <Section />
       <What />
       <Testimonial />
       <Slider />
-    </>
+    </div>
   );
 }
 
