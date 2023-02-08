@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center border justify-between border-b mx-auto h-16 w-full  ">
       <div className="flex justify-between gap-10 mx-auto h-16 w-full  lg:px-[100px] px-12 items-center py-3 ">
-        <div className="flex ">
+        <div className="flex lg:mt-4">
           <a
             href="https://GAMI.com/"
             className="flex items-center lg:mb-4 mb-0 pl-4 sm:mb-0"
