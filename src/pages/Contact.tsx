@@ -2,13 +2,13 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="relative flex items-top justify-center h-[475px] bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
+    <div className="relative flex items-top justify-center bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
       <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div className="mt-8 overflow-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className=" mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
+            <div className=" mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg  ">
               <iframe
-                src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=ankara&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 className="h-[455px] w-[535px] rounded-lg"
                 frameBorder={0}
                 allowFullScreen
@@ -47,7 +47,9 @@ const Contact = () => {
                 />
               </div>
               <div className="flex flex-col mt-2">
-                <label htmlFor="" className="font-[500] leading-8">Tell usmore about your project*</label>
+                <label htmlFor="" className="font-[500] leading-8">
+                  Tell usmore about your project*
+                </label>
                 <textarea
                   className="form-control block px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   id="exampleFormControlTextarea13"
