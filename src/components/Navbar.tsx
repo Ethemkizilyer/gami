@@ -92,7 +92,7 @@ const Navbar = () => {
               }`}
             ></span>
             <span
-              className={`absolute -left-[19.3px] bottom-[3px] ${
+              className={`absolute -left-[19.3px] bottom-[2px] ${
                 active == "what" &&
                 "border-r-[1px] border-r-gray-100 border-b-[1px] rounded-br-lg  rounded- w-[20px] h-[39px]"
               }`}
@@ -119,13 +119,13 @@ const Navbar = () => {
               }`}
             ></span>
             <span
-              className={`absolute -left-[19.3px] bottom-[3px] ${
+              className={`absolute -left-[19.3px] bottom-[2px] ${
                 active == "GAMI" &&
                 "border-r-[1px] border-r-gray-100 border-b-[1px] rounded-br-lg  rounded- w-[20px] h-[39px]"
               }`}
             ></span>
             <span
-              className={`absolute -right-[23px] bottom-[3px] ${
+              className={`absolute -right-[23px] bottom-[2px] ${
                 active == "GAMI" &&
                 "border-l-[1px] border-l-gray-100 border-r-white rounded-bl-lg w-6 h-[39px]"
               }`}
@@ -149,13 +149,13 @@ const Navbar = () => {
               }`}
             ></span>
             <span
-              className={`absolute -left-[19.3px] bottom-[3px] ${
+              className={`absolute -left-[19.3px] bottom-[2px] ${
                 active == "contact" &&
                 "border-r-[1px] border-r-gray-100 border-b-[1px] rounded-br-lg  rounded- w-[20px] h-[39px]"
               }`}
             ></span>
             <span
-              className={`absolute -right-[23px] bottom-[3px] ${
+              className={`absolute -right-[23px] bottom-[2px] ${
                 active == "contact" &&
                 "border-l-[1px] border-l-gray-100 border-r-white rounded-b-lg w-6 h-[39px]"
               }`}
