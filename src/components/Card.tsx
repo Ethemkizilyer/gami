@@ -22,7 +22,7 @@ function Card() {
       {data.map((item, i) => (
         <ReactCardFlip key={i} isFlipped={flip[i]} flipDirection="horizontal">
           <div
-            className="lg:w-[30vw] md:w-[300px] w-[500px]   h-60 bg-white-500 text-center text-white font-bold py-2 px-4 rounded shadow-lg transition duration-2000 ease-in-out"
+            className="lg:w-[30vw] md:w-[300px] w-[500px]   h-60 bg-white-500 text-center text-white font-bold py-2 px-2 rounded shadow-lg transition duration-2000 ease-in-out "
             onClick={() => handleFlip(i)}
           >
             <div className="relative flex items-center justify-center gap-4 transition duration-4000 ease-in-out flex-col text-[#1D335A]">
@@ -37,7 +37,7 @@ function Card() {
             </div>
           </div>
           <div
-            className="lg:w-[30vw] md:w-[300px] w-[500px] h-60 bg-[#1D335A] text-center text-white font-bold py-2 px-4 rounded shadow-lg transition duration-2000 ease-in-out"
+            className="lg:w-[30vw] md:w-[300px] w-[500px] h-60 bg-[#1D335A] text-center text-white font-bold py-2 px-2 rounded shadow-lg transition duration-2000 ease-in-out"
             onClick={() => handleFlip(i)}
           >
             <div className="relative flex items-center justify-center flex-col gap-4 text-white">

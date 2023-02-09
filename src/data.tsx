@@ -368,15 +368,15 @@ const data = [
     ),
     title: "",
     desc: (
-      <p className="absolute top-[60px] left-[10%] z-4 flex flex-col items-center justify-center text-[#1D335A]">
+      <p className="absolute top-[60px]  z-4 flex flex-col items-center justify-center text-[#1D335A] text-[14px]">
         Official Web 3.0, Metaverse, P2E Partner of{" "}
-        <h1 className="text-[44px]">Galatasaray S.K.</h1>
+        <h1 className="text-[40px]">Galatasaray S.K.</h1>
       </p>
     ),
     desc1: (
-      <p className="absolute top-[60px] left-[10%] z-4 flex flex-col items-center justify-center text-[#fff]">
+      <p className="absolute top-[60px]  z-4 flex flex-col items-center justify-center text-[#fff] text-[14px]">
         Official Web 3.0, Metaverse, P2E Partner of{" "}
-        <h1 className="text-[44px]">Galatasaray S.K.</h1>
+        <h1 className="text-[40px]">Galatasaray S.K.</h1>
       </p>
     ),
   },

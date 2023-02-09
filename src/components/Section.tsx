@@ -4,14 +4,14 @@ const Section = () => {
   return (
     <div className="w-full mb-20 z-50 sticky mx-auto rounded-3xl px-6 container">
       <div className="w-full lg:w-1/2 flex flex-col mx-auto items-center justify-center lg:px-2 xl:px-0 text-center">
-        <p className="text md:text-6xl lg:text-[600] font-bold tracking-wider text-[#1D335A]">
-          Lorem Ipsum Dolor Sit Amet
+        <p className="text-4xl lg:text-[600] font-bold tracking-wider text-[#1D335A]">
+          Lorem Ipsum Dolor Sit Amete
         </p>
         <p className="text-x tracking-wider text-gray-300 mt-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
           cum ullam. Est eius adipisci sed impedit eveniet. Quas, nihil nobis
           asperiores reiciendis ut quam, repudiandae deserunt aliquid ab odio
-          nisi!
+          nisii!
         </p>
       </div>
       <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">

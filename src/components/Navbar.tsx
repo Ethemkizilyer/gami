@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center border justify-between border-b mx-auto h-16 w-full  ">
+    <nav className="flex items-center justify-between border-b mx-auto h-16 w-full  ">
       <div className="flex justify-between gap-10 mx-auto h-16 w-full  lg:px-[100px] px-12 items-center py-3 ">
         <div className="flex lg:mt-4">
           <Link
@@ -59,20 +59,20 @@ const Navbar = () => {
             }}
           >
             <span
-              className={`absolute -left-[4px] h-[1px] w-[87px] -right-1 bottom-[2.5px] ${
+              className={`absolute -left-[5px] h-[1px] w-[89px] -right-1 bottom-[2.5px] ${
                 active == "home" && " bg-white h-[1px]  "
               }`}
             ></span>
             <span
               className={`absolute -left-[19.3px] bottom-[3px] ${
                 active == "home" &&
-                "border-r-[1px] border-r-gray-100 border-b-[1px] rounded-br-lg  rounded- w-[20px] h-[39px]"
+                "border-r-[1px] border-r-gray-100 border-b-[1px] rounded-br-lg  rounded- w-[20px] h-[40px]"
               }`}
             ></span>
             <span
               className={`absolute -right-[23px] bottom-[3px] ${
                 active == "home" &&
-                "border-l-[1px] border-l-gray-100 border-r-white rounded-b-lg w-6 h-[39px]"
+                "border-l-[1px] border-l-gray-100 border-r-white rounded-b-lg w-6 h-[40px]"
               }`}
             ></span>
             Home
@@ -87,7 +87,7 @@ const Navbar = () => {
             onClick={() => handleClick("what")}
           >
             <span
-              className={`absolute -left-[6px] h-[1px] w-[140px] -right-1 bottom-[2.5px] ${
+              className={`absolute -left-[7px] h-[1px] w-[141px] -right-1 bottom-[2.5px] ${
                 active == "what" && " bg-white h-[1px]  "
               }`}
             ></span>
@@ -98,7 +98,7 @@ const Navbar = () => {
               }`}
             ></span>
             <span
-              className={`absolute -right-[23px] bottom-[3px] ${
+              className={`absolute -right-[23px] bottom-[2px] ${
                 active == "what" &&
                 "border-l-[1px] border-l-gray-100 border-r-white-100 rounded-b-lg w-6 h-[39px]"
               }`}
@@ -108,13 +108,13 @@ const Navbar = () => {
           <button
             className={`mx-2 py-2 mt-[22px]  px-4 h-12 text-gray-500 font-medium relative ${
               active == "GAMI"
-                ? "border-t-[1px] w-[145px] rounded-t-lg border-b-white "
+                ? "border-t-[1px] w-[150px] rounded-t-lg border-b-white "
                 : ""
             }`}
             onClick={() => handleClick("GAMI")}
           >
             <span
-              className={`absolute -left-[9px] h-[1px] w-[160px] -right-1 bottom-[2.5px] ${
+              className={`absolute -left-[12px] h-[1px] w-[167px] -right-1 bottom-[2.5px] ${
                 active == "GAMI" && " bg-white h-[1px]  "
               }`}
             ></span>
@@ -144,7 +144,7 @@ const Navbar = () => {
             }}
           >
             <span
-              className={`absolute -left-[4px] h-[1px] w-[127.5px] -right-1 bottom-[2.5px] ${
+              className={`absolute -left-[6px] h-[1px] w-[130px] -right-1 bottom-[2.5px] ${
                 active == "contact" && " bg-white h-[1px]  "
               }`}
             ></span>
