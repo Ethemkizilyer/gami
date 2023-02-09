@@ -1,23 +1,27 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
-const testimonials = [1, 2, 3, 4, 5, 6];
+const Testimonial = () => {
+  const [currentIndex, setCurrentIndex] = useState(1);
+  const testimonials = [1, 2, 3, 4, 5, 6];
 
-const Testimonial: React.FC = () => {
+  const previous = () => {
+    if (currentIndex > 1) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
+  const forward = () => {
+    if (currentIndex < testimonials.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
   const [currentPage, setCurrentPage] = useState(0);
 
-  const handlePrevClick = () => {
-    setCurrentPage((prevPage) =>
-      prevPage > 0 ? prevPage - 1 : testimonials.length - 1
-    );
-  };
-
-  const handleNextClick = () => {
-    setCurrentPage((prevPage) =>
-      prevPage < testimonials.length - 1 ? prevPage + 1 : 0
-    );
-  };
-
-  const currentTestimonials = testimonials.slice(currentPage, currentPage + 2);
+  const currentTestimonials = testimonials.slice(
+    currentIndex,
+    currentIndex + 2
+  );
 
   return (
     <>
@@ -33,27 +37,32 @@ const Testimonial: React.FC = () => {
 
       <div className="lg:w-[910px] w-[60%] mx-auto h-[370px] mt-36 lg:mt-0 flex items-center justify-center transition duration-1000">
         <button
-          onClick={handlePrevClick}
-          className="bg-slate-100 rounded-full p-2 prev-btn hover:bg-[#1D335A] hover:text-white"
+          onClick={previous}
+          disabled={currentIndex == 1}
+          className={`top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center text-[#1C325B] justify-center rounded-full bg-gray-100 shadow-md hover:text-white hover:bg-[#1C325B]${
+            currentIndex == 1 ? " hover:bg-gray-100" : ""
+          }`}
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+            className={`h-8 w-8 font-bold text-gray-500 hover:text-white ${
+              currentIndex == 1 ? "hover:text-slate-300 hover:bg-gray-100" : ""
+            }`}
             fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
             stroke="currentColor"
-            className="w-6 h-6"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M15.75 19.5L8.25 12l7.5-7.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2.5"
+              d="M15 19l-7-7 7-7"
             />
           </svg>
         </button>
 
         <div className="flex lg:flex-row  flex-col justify-between items-center lg:w-[860px]  transition duration-1000">
-          {currentTestimonials.map((testimonial) => (
+          {currentTestimonials.map((item) => (
             <div className="w-[413px] flex items-center justify-center  transition duration-1000 carousel">
               <blockquote className=" flex  flex-col justify-center items-center  p-2">
                 <div className="flex  bg-slate-300 h-[300px] p-6 flex-col items-center">
@@ -126,21 +135,26 @@ const Testimonial: React.FC = () => {
           ))}
         </div>
         <button
-          onClick={handleNextClick}
-          className="bg-slate-100 rounded-full p-2 next-btn hover:bg-[#1D335A] hover:text-white"
+          onClick={forward}
+          disabled={currentIndex == 5}
+          className={`top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center text-[#1C325B] justify-center rounded-full bg-gray-100 shadow-md hover:text-white hover:bg-[#1C325B]${
+            currentIndex == 5 ? " hover:bg-gray-100" : ""
+          }`}
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+            className={`h-8 w-8 font-bold text-gray-500 hover:text-white ${
+              currentIndex == 5 ? "hover:text-slate-300 hover:bg-gray-100" : ""
+            }`}
             fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
             stroke="currentColor"
-            className="w-6 h-6"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2.5"
+              d="M9 5l7 7-7 7"
             />
           </svg>
         </button>
